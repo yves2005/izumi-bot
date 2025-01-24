@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'hermit-md',
+      name: 'Izumi-v3',
       script: 'index.js',
       instances: 1,
       autorestart: true,
