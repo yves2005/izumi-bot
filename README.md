@@ -84,7 +84,7 @@
    ```
 2. installation
    ```
-   git clone https://github.com/sataniceypz/Izumi-v3
+   git clone https://github.com/sataniceypz/Izumi-bot
    cd Izumi-v3
    rm -rf package-lock.json
    npm install @adiwajshing/baileys
