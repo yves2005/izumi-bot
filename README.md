@@ -85,7 +85,7 @@
 2. installation
    ```
    git clone https://github.com/sataniceypz/Izumi-bot
-   cd Izumi-v3
+   cd Izumi-bot
    rm -rf package-lock.json
    npm install @adiwajshing/baileys
    npm install file-type@16
