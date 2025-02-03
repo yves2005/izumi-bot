@@ -2,9 +2,9 @@ const { izumi,mode } = require('../lib/');
 izumi(
   {
     pattern: "vv",
-    fromMe: mode,
+    fromMe: true,
     desc: "Forwards The View once messsage",
-    type: "downloader",
+    type: "misc",
   },
   async (message, match) => {
   	if(!message.quoted) return;
