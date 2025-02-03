@@ -20,7 +20,7 @@ izumi({
     pattern: "murl ?(.*)",
     fromMe: mode,
     desc: "url for mention and supports audio",
-    type: "download"
+    type: "generator"
 }, async (m) => {
     try {
         let res = await uploadToServer(await m.quoted.download());
