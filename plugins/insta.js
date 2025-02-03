@@ -4,37 +4,30 @@ const fetch = require("node-fetch");
 izumi({
     pattern: 'insta ?(.*)',
     fromMe: mode,
-    desc: 'Download Instagram media (images/videos)',
-    type: 'download',
+    desc: 'Download Instagram reels',
+    type: 'downloader'
 }, async (message, match, client) => {
+    if (!match[1]) {
+        return await message.reply('Please provide an Instagram reel URL!');
+    }
+
+    const api = `https://api-25ca.onrender.com/api/instagram?url=${match}`;
     try {
-        const url = match;
-        if (!url) {
-            return await message.reply("Please provide a valid Instagram URL.");
+        const response = await fetch(api);
+        const data = await response.json();
+        const dl = data.result;
+
+        if (!dl) {
+            return await message.reply('Failed to download the video. Please check the URL or try again later.');
         }
 
-        const api = `https://api.siputzx.my.id/api/d/igdl?url=${url}`;
-        const res = await fetch(api);
-        if (!res.ok) {
-            return await message.reply("Failed to fetch media. Please try again.");
-        }
-
-        const data = await res.json();
-        const mediad = data.data;
-
-        if (mediad && mediad.length > 0) {
-            let counter = 0;
-            for (const media of mediad) {
-                if (counter >= 10) break;
-                const mediaUrl = media.url;
-                await message.sendFile(mediaUrl);
-                counter++;
-            }
-        } else {
-            await message.reply("No media found for the provided URL.");
-        }
+        await client.sendMessage(message.jid, {
+            video: { url: dl },
+            caption: "Here is your video",
+            mimetype: "video/mp4",
+        }, { quoted: message.data });
     } catch (error) {
+        await message.reply('An error occurred while processing your request.');
         console.error(error);
-        await message.reply("An error occurred while processing the request.");
     }
 });
