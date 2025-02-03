@@ -6,7 +6,7 @@ izumi({
   pattern: "song ?(.*)",
   fromMe: mode,
   desc: "Search and download audio from YouTube.",
-  type: "download",
+  type: "downloader",
 }, async (message, match, client) => {
   if (!match) {
     return await message.reply("Please provide a search query or YouTube URL.");
@@ -40,7 +40,7 @@ izumi({
   pattern: "video ?(.*)",
   fromMe: mode,
   desc: "Search and download video from YouTube.",
-  type: "download",
+  type: "downloader",
 }, async (message, match, client) => {
   if (!match) {
     return await message.reply("Please provide a search query or YouTube URL.");
@@ -73,7 +73,7 @@ izumi({
   pattern: "yta ?(.*)",
   fromMe: mode,
   desc: "Download audio from YouTube.",
-  type: "download",
+  type: "downloader",
 }, async (message, match, client) => {
   if (!match) {
     return await message.reply("Please provide a YouTube URL.");
@@ -103,7 +103,7 @@ izumi({
   pattern: "ytv ?(.*)",
   fromMe: mode,
   desc: "Download video from YouTube.",
-  type: "download",
+  type: "downloader",
 }, async (message, match, client) => {
   if (!match) {
     return await message.reply("Please provide a YouTube URL.");
@@ -131,7 +131,7 @@ izumi({
   pattern: 'yts ?(.*)', 
   fromMe: mode,
   desc: 'Search for videos on YouTube.',
-  type: 'downloader'
+  type: 'search'
 }, async (message, match, client) => {
   const query = match;
   if (!query) {
