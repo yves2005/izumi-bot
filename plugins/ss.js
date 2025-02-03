@@ -6,7 +6,7 @@ izumi(
         pattern: "fullss ?(.*)",
         fromMe: mode,
         desc: "capture website screenshot",
-        type: "download",
+        type: "downloader",
     },
     async (message, match, m) => {
         try {
