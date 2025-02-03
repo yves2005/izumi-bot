@@ -40,7 +40,7 @@ izumi(
         pattern: "weather ?(.*)",
         fromMe: mode,
         desc: "Get weather information for a city",
-        type: "info",
+        type: "search",
     },
     async (message, match, m) => {
         try {
