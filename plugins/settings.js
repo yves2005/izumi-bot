@@ -124,7 +124,7 @@ izumi({
   }
 );
 izumi({
-    pattern: "support",
+    pattern: "s",
     fromMe: mode,
     desc: "Izumi Support",
     type: "info",
@@ -134,8 +134,8 @@ izumi({
         'VERSION:3.0\n' +
         'N:;;;;\n' +
         'FN:Eypz God\n' +
-        'TEL;type=Mobile;waid=917994489493:+91 79944 89493\n' +
-        "X-WA-BIZ-DESCRIPTION:Izumi, a multi-device WhatsApp bot.\n" +
+        'TEL;type=Mobile;waid=917902624272:+91 79026 24272\n' +
+        "X-WA-BIZ-DESCRIPTION:Izumi, a multi-device WhatsApp bot.\nwa.me/917902624272" +
         'X-WA-BIZ-NAME:Eypz God\n' +
         'END:VCARD';
 
