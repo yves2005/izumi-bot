@@ -124,7 +124,7 @@ izumi({
   }
 );
 izumi({
-    pattern: "s",
+    pattern: "support",
     fromMe: mode,
     desc: "Izumi Support",
     type: "info",
