@@ -65,6 +65,6 @@
     "uglify-js": "^3.19.3",
     "util": "^0.12.5",
     "youtubei.js": "^13.1.0",
-    "yt-search": "^2.12.1",
+    "yt-search": "^2.12.1"
   }
 }
