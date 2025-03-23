@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: hermit-md
+    name: izumi-bot
     repo: https://github.com/Akshay-Eypz/izumi-bot.git
     branch: main
     env: docker
