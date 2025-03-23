@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'Izumi-v3',
+      name: 'izumi-bot',
       script: 'index.js',
       instances: 1,
       autorestart: true,
