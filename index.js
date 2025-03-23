@@ -1,4 +1,5 @@
 const client = require('./lib/client')
+require("./express.js");
 
 const connect = async () => {
 	try {
