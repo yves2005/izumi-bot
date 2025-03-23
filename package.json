@@ -1,5 +1,5 @@
 {
-  "name": "Izumi-v3",
+  "name": "Izumi-Bot",
   "version": "3.3.2",
   "description": "IZUMI-V3 simple multi device WhatsApp Bot.",
   "main": "./index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sataniceypz/Izumi-v3.git"
+    "url": "git+https://github.com/sataniceypz/Izumi-bpt.git"
   },
   "keywords": [
     "bot",
@@ -19,9 +19,9 @@
   "author": "EYPZ",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/sataniceypz/Izumi-v3/issues"
+    "url": "https://github.com/sataniceypz/Izumi-bot/issues"
   },
-  "homepage": "https://github.com/sataniceypz/Izumi-v3#readme",
+  "homepage": "https://github.com/sataniceypz/Izumi-bot#readme",
   "dependencies": {
     "@adiwajshing/baileys": "github:princerudh/Bailey",
     "@adiwajshing/keyed-db": "^0.2.4",
