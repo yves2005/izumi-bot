@@ -4,7 +4,7 @@ services:
     repo: https://github.com/Akshay-Eypz/izumi-bot.git
     branch: main
     env: docker
-    dockerfilePath: Dockerfile
+    dockerfilePath: ../lib/Dockerfile
     plan: free
     autoDeploy: false
     envVars:
