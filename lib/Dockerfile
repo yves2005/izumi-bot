@@ -1,8 +1,7 @@
 FROM quay.io/eypzgod/izumi:latest
 
-WORKDIR /izumi-bot
-COPY package*.json ./
+RUN git clone https://github.com/Akshay-Eypz/izumi-bot /root/bot/
+WORKDIR /root/bot/
 RUN npm install
-COPY . .
-EXPOSE 3000
+RUN npm install -g pm2
 CMD ["pm2-runtime", "ecosystem.config.js"]
