@@ -42,9 +42,7 @@
     "google-tts-api": "^2.0.2",
     "got": "^14.4.6",
     "heroku-client": "^3.1.0",
-    "imagekit": "^6.0.0",
     "imgbb-uploader": "^1.5.1",
-    "imgur": "^2.4.3",
     "jimp": "^0.16.13",
     "jsdom": "^26.0.0",
     "jsqr": "^1.4.0",
@@ -77,6 +75,5 @@
     "util": "^0.12.5",
     "youtubei.js": "^13.1.0",
     "yt-search": "^2.12.1",
-    "ytsr": "^3.8.4"
   }
 }
