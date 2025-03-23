@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: izumi-bot
+    name: izumi
     repo: https://github.com/Akshay-Eypz/izumi-bot.git
     branch: main
     env: docker
