@@ -1,15 +1,15 @@
 {
-  "name": "Izumi-Bot",
+  "name": "izumi-bot",
   "version": "3.3.2",
-  "description": "IZUMI-V3 simple multi device WhatsApp Bot.",
+  "description": "Izumi simple multi device WhatsApp Bot.",
   "main": "./index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name izumi",
+    "start": "pm2 start . --attach --name izumi-bot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sataniceypz/Izumi-bpt.git"
+    "url": "git+https://github.com/sataniceypz/Izumi-bot.git"
   },
   "keywords": [
     "bot",
