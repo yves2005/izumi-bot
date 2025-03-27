@@ -2,9 +2,9 @@
 Izumi - Simple whatsapp Multi Device whatsapp bot.   
 ### SETUP
 1. [![Fork](https://img.shields.io/github/forks/Akshay-Eypz/izumi-bot?style=social)](https://github.com/Akshay-Eypz/izumi-bot/fork)
-2. Scan the QR or pair and copy it
+2.  pair and copy it
     <br>
-<a href='https://izumi.maskser.me/' target="_blank"><img alt='SESSION' src='https://img.shields.io/badge/SESSION-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://izumi-pair-mega.onrender.com/' target="_blank"><img alt='SESSION' src='https://img.shields.io/badge/SESSION-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 ---
  
