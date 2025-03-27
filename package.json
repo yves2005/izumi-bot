@@ -66,6 +66,7 @@
     "util": "^0.12.5",
     "youtubei.js": "^13.1.0",
     "yt-search": "^2.6.1",
-    "megajs": "^1.1.0"
+    "megajs": "^1.1.0",
+    "imagekit": "^6.0.0"
   }
 }
