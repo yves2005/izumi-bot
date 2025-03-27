@@ -4,20 +4,17 @@ require('dotenv').config();
 
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env', override: true });
 
-// Function to convert text to boolean
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 
-// Function to convert string to boolean
 const toBool = (x) => (x && x.toLowerCase() === 'true') || false;
 global.apiUrl = 'https://api.maskser.me/'
-global.eypzApi = 'https://combative-sarine-eypz-god-d4cce0fc.koyeb.app/'
 
-// Define the Sequelize instance based on DATABASE_URL
+
 const DATABASE_URL = process.env.DATABASE_URL === undefined ? './database.db' : process.env.DATABASE_URL;
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
-// Export configuration variables
+
 module.exports = {
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   BRANCH: "main",
@@ -41,8 +38,8 @@ module.exports = {
   DELETED_LOG_CHAT: process.env.DELETED_LOG_CHAT || false,
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  KOYEB_API_KEY: process.env.KOYEB_API_KEY || "your_koyeb_api_key",
-  KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || '',
+  KOYEB_API_KEY: process.env.KOYEB_API_KEY || "api",
+  KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || "name",
   KOYEB: toBool(process.env.KOYEB) || false,
   HEROKU: toBool(process.env.HEROKU) || false,
   TERMUX: toBool(process.env.TERMUX) || false,
