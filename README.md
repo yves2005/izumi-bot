@@ -7,16 +7,6 @@ Izumi - Simple whatsapp Multi Device whatsapp bot.
 <a href='https://izumi-pair-mega.onrender.com/' target="_blank"><img alt='SESSION' src='https://img.shields.io/badge/SESSION-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 ---
- 
-### Try this if you didn't get the session ID from the web.
-1.  Termux
-    <br>
-<a href='https://www.mediafire.com/file/iogcejb8629yv63/base.apk/file' target="_blank"><img alt='Install Termux' src='https://img.shields.io/badge/Install Termux-V2100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
-
-2. download termux and run the command
-    ```
-   pkg update && pkg install -y nodejs git && git clone https://github.com/sataniceypz/izumi-qr.git && cd izumi-qr && npm install && node index.js
-   ```
 ### DEPLOY TO RENDER 
 
 1. If You don't have a account in render. Create a account.
