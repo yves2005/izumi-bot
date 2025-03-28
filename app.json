@@ -10,7 +10,8 @@
   "env": {
     "SESSION_ID": {
       "description": "enter your session id",
-      "required": true
+      "required": true,
+      "value": "izumi~OwxRgZDL#Pj1IF0nHabpn6wQ52o1cmKeFZLxh_BM1PV-zfMby8Ac"
     },
      "MENU_URL": {
       "description": " ",
