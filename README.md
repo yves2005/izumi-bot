@@ -51,17 +51,13 @@ Izumi - Simple whatsapp Multi Device whatsapp bot.
 2. installation
    ```
    git clone https://github.com/Akshay-Eypz/izumi-bot
-   cd Izumi-bot
-   rm -rf package-lock.json
-   npm install @adiwajshing/baileys
-   npm install file-type@16
+   cd izumi-bot
 4. Configuration
    ```
-   echo "TERMUX = true
-   SESSION_ID = null
-   PREFIX = .
-   SUDO = null" > config.env
+   nono config.js
+
    ```
+   edit your details
 - Start
   ```
   npm install
@@ -69,7 +65,7 @@ Izumi - Simple whatsapp Multi Device whatsapp bot.
   ```
 - Stop
   ```
-  pm2 delete izumi
+  pm2 delete izumi-bot
 
   
 [![Join us on Telegram](https://img.shields.io/badge/Join_Telegram-blue?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/izumi_support)
