@@ -43,7 +43,7 @@ const {     StoreDB,
 const config = require ('../config')
 izumi({pattern: '> ?(.*)', fromMe: true,dontAddCommandList: true, desc: 'Run js code (evel)', type: 'misc'}, async (message, match, client) => {return});
 izumi({on: 'text', fromMe: true, dontAddCommandList: true,desc: 'Run js code (evel)', type: 'misc'}, async (message, match, client) => {
-if(message.message.startsWith(">")){
+if (message.message && message.message.startsWith(">")) {
 const m = message;
 try {
 let evaled = await eval(`${message.message.replace(">","")}`) 
