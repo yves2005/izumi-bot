@@ -20,21 +20,21 @@
      "BOT_NAME": {
       "description": "enter your bot name",
       "required": "false",
-      "value": "Iᴢᴜᴍɪ-ᴍᴅ"
+      "value": "Marius Bot"
     },
        "STICKER_PACKNAME": {
       "description": "enter your sticker pack name",
       "required": "false",
-      "value": "Iᴢᴜᴍɪ-ᴍᴅ,❤️"
+      "value": "From Marius Bot"
     }, "AUDIO_DATA": {
       "description": "enter your audio data(title,author,link)",
       "required": "false",
-      "value": "enjoy this song,Iᴢᴜᴍɪ-v3,https://i.imgur.com/cO0TZJv.jpeg"
+      "value": "enjoy this song,Marius,https://i.imgur.com/cO0TZJv.jpeg"
     },
        "OWNER_NAME": {
        "description": "Enter your name"
        "required": "false",
-       "value": "Eʏᴘᴢ"
+       "value": "Marius"
     },
      "AUTHOR": {
       "description": "enter sticker pack author name ",
@@ -44,12 +44,12 @@
     "SUDO": {
       "description": "add sudo",
       "required": "false",
-      "value": "91xxxxxxxxxx",
+      "value": "237650897459",
     },
     "MODE": {
       "description": "bot work mode",
       "required": "true",
-      "value": "private"
+      "value": "public"
      },
     "HEROKU": {
       "description": "Don't change this",
