@@ -55,7 +55,12 @@ await message.reply(util.format(err))
 })
 
 izumi({ on: "text", fromMe: true, dontAddCommandList: true }, async (message, match, client) => {
-  if (message.message && typeof message.message === "string" && message.message.startsWith("$")) {
+  if (!message.message || typeof message.message !== "string") {
+    console.error("Error: message is null or not a string");
+    return;
+  }
+
+  if (message.message.startsWith("$")) {
     var m = message;
     var conn = message.client;
     const util = require("util");
