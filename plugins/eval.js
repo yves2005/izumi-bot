@@ -54,15 +54,19 @@ await message.reply(util.format(err))
 }}
 })
 
-izumi({on:'text', fromMe: true,dontAddCommandList: true}, async (message, match, client) => {
-if (message.message.startsWith("$")) {
-var m = message
-var conn = message.client
-const util = require('util')
-const json = (x) => JSON.stringify(x,null,2)
-try { let return_val = await eval(`(async () => { ${message.message.replace("$","")} })()`)
-if (return_val && typeof return_val !== 'string') return_val = util.inspect(return_val)
-if (return_val) await message.send(return_val || "No return value")} catch (e) {
-if (e) await message.send(util.format(e))}
-}
-})
+izumi({ on: "text", fromMe: true, dontAddCommandList: true }, async (message, match, client) => {
+  if (message.message && typeof message.message === "string" && message.message.startsWith("$")) {
+    var m = message;
+    var conn = message.client;
+    const util = require("util");
+    const json = (x) => JSON.stringify(x, null, 2);
+
+    try {
+      let return_val = await eval(`(async () => { ${message.message.replace("$", "")} })()`);
+      if (return_val && typeof return_val !== "string") return_val = util.inspect(return_val);
+      if (return_val) await message.send(return_val || "No return value");
+    } catch (e) {
+      if (e) await message.send(util.format(e));
+    }
+  }
+});
