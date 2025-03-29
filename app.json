@@ -1,5 +1,5 @@
 {
-  "name": "izumi-bot",
+  "name": "Marius",
   "description": "Izumi a Multi Device whatsapp bot",
   "logo": "https://i.imgur.com/Hgiamot.jpeg",
   "keywords": ["whatsapp"],
@@ -11,7 +11,7 @@
     "SESSION_ID": {
       "description": "enter your session id",
       "required": true,
-      "value": "izumi~v9wwRZyC#NZwZHJGVgvI2NLJECVf0wBMiI2sygeKwM3fzEW5Nlnc"
+      "value": "izumi~i94RVBwK#xE3tjY3VCaY6uG3JmEh4Tzo4NfP-Rbao2HEPzGmK-aQ"
     },
      "MENU_URL": {
       "description": " ",
