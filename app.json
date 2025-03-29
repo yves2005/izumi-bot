@@ -1,3 +1,4 @@
+
 {
   "name": "Marius",
   "description": "Izumi a Multi Device whatsapp bot",
@@ -11,7 +12,7 @@
     "SESSION_ID": {
       "description": "enter your session id",
       "required": true,
-      "value": "izumi~i94RVBwK#xE3tjY3VCaY6uG3JmEh4Tzo4NfP-Rbao2HEPzGmK-aQ"
+      "value": "izumi~e8A3RByT#CLCJzyu9Hmt-s2lnWNGIc5GsRV9gKp4JX6jnjYlJXhw"
     },
      "MENU_URL": {
       "description": " ",
